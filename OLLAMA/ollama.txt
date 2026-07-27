@@ -1,0 +1,7 @@
+ollama --version :to check the version in CP
+ollama pull ministral-3:8b(model name) to extract into our local system
+ollama run ministral-3:8b to run on local system
+/bye :to exit from the current model
+/show  : to fetch the commands info about the model
+/set : to finetune the parameter in the model
+ollama rm 'modelname' : to delete the model 
