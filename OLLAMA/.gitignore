@@ -1,0 +1,81 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+
+# -----------------------------
+# Virtual Environment
+# -----------------------------
+venv/
+.venv/
+env/
+ENV/
+
+# -----------------------------
+# Jupyter Notebook
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# VS Code
+# -----------------------------
+.vscode/
+
+# -----------------------------
+# Environment Variables
+# -----------------------------
+.env
+.env.*
+
+# -----------------------------
+# Python Packaging
+# -----------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# -----------------------------
+# Testing
+# -----------------------------
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+
+# -----------------------------
+# Logs
+# -----------------------------
+*.log
+
+# -----------------------------
+# OS Files
+# -----------------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------------
+# Ollama (Optional)
+# Ignore local model/config folders if any
+# -----------------------------
+.ollama/
+
+# -----------------------------
+# Local Database / Vector Stores
+# Uncomment if used
+# -----------------------------
+# chroma_db/
+# faiss_index/
+# qdrant_storage/
+# vectorstore/
+
+# -----------------------------
+# Temporary Files
+# -----------------------------
+*.tmp
+*.bak
